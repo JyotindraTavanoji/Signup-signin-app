@@ -1,0 +1,54 @@
+<html>
+  <head>
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,400i,700,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="/images/coding.png">
+  </head>
+    <style>
+      body {
+        text-align: center;
+        
+        background: #000;
+      }
+        h1 {
+          color: #000;
+          font-family: "Nunito Sans", "Helvetica Neue", sans-serif;
+          font-weight: 900;
+          font-size: 40px;
+          margin-bottom: 10px;
+        }
+        p {
+          color: #000;
+          font-family: "Nunito Sans", "Helvetica Neue", sans-serif;
+          font-size:20px;
+          margin: 0;
+        }
+      i {
+        color: #000;
+        font-size: 100px;
+        line-height: 200px;
+        margin-left:-15px;
+      }
+      .card {
+        background: white;
+        width: 90vw;
+        padding: 60px;
+        border-radius: 4px;
+        box-shadow: 0 20px 30px #2b2b2c;
+        display: inline-block;
+        margin: 0 auto;
+        overflow-x: hidden;
+      }
+    </style>
+    <body>
+
+        {{>navbar}}
+      <div class="card">
+      <div style="border-radius:200px; height:200px; width:200px; background: #00fb9b; margin:0 auto;">
+        <i class="checkmark">✓</i>
+      </div>
+        <h1>Sign In Succesfull !</h1> 
+        <p>Welcome to Dark$ide's Portal</><br/>Your Sing-In was succesfull !</p>
+      </div>
+    </body>
+</html>
